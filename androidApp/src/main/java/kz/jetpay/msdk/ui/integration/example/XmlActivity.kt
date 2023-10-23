@@ -89,6 +89,13 @@ class XmlActivity : AppCompatActivity() {
 
             //Custom theme
             isDarkTheme = false
+
+            brandColor = "#000000" //#RRGGBB
+            //Any bitmap image
+            logoImage = BitmapFactory.decodeResource(
+                resources,
+                R.drawable.example_logo
+            )
         }
 
         //4. Create sdk object
