@@ -44,7 +44,7 @@ android {
 }
 
 dependencies {
-    implementation("kz.jetpay:msdk-ui:2.1.1")
+    implementation("kz.jetpay:msdk-ui:2.1.2")
 
     implementation(compose.ui)
     implementation(compose.material)
